@@ -36,8 +36,8 @@ for prompt, image_paths in prompt_image_mapping.items():
 # Create a DataFrame from the data
 df = pd.DataFrame(data, columns=['prompt', 'image_path'])
 
-# Save the DataFrame to a CSV file
+# Save the DataFrame to a CSV filegit 
 csv_path = "C:\\Users\\kerem\\OneDrive\\Desktop\\Clean\\prompt_image_dataset.csv"
 df.to_csv(csv_path, index=False)
 
-print("CSV file created successfully.")
+print("CSV file created successfully.")##
