@@ -6,9 +6,8 @@ import cairosvg
 
 
 # Define the source and destination directories
-source_dir = "C:\\Users\\kerem\\OneDrive\\Desktop\\Clean\\1-Original"
-dest_dir = "C:\\Users\\kerem\\OneDrive\\Desktop\\Clean\\2-ConvertToPngRenameAndResize"
-
+source_dir = "C:\\Users\\kerem\\PokemonDatabase\\Code\\Clean Images and make cvs\\Testvalidation"
+dest_dir = "C:\\Users\\kerem\\PokemonDatabase\\Code\\Clean Images and make cvs\\TestVal2"
 # Function to process the images within a subfolder
 def process_images(folder_path, folder_name, current_number, total_number):
     #print(f"Starting to process images in {folder_path}")

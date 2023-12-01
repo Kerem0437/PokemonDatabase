@@ -6,8 +6,8 @@ import imgaug.augmenters as iaa
 import time
 
 # Define the source and destination directories
-source_dir = "C:\\Users\\kerem\\OneDrive\\Desktop\\Clean\\2-ConvertToPngRenameAndResize"
-dest_dir = "C:\\Users\\kerem\\OneDrive\\Desktop\\Clean\\3-NormalizeAugmentSharpen"
+source_dir = "C:\\Users\\kerem\\PokemonDatabase\\Code\\Clean Images and make cvs\\TestVal2"
+dest_dir = "C:\\Users\\kerem\\PokemonDatabase\\Code\\Clean Images and make cvs\\Normalized"
 
 # Augmentation and enhancement setup
 augmenter = iaa.Sequential([
